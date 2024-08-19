@@ -24,7 +24,7 @@
 - **Mower Instructions Processing:**
   - Subsequent lines are paired (two lines at a time).
   - The first line in each pair is used to set the initial position (`X`, `Y`, `InitialDirection`).
-  - The second line contains directions (`L`, `R`, `F`).
+  - The second line contains instructions (`L`, `R`, `F`).
 
 - **Direction Validation:**
   - The initial direction is validated to be one of `N`, `E`, `W`, or `S`.
