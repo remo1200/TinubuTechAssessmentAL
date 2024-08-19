@@ -32,7 +32,7 @@
 
 - **Execution of Instructions:**
   - The program executes the instructions for each mower and moves it within the grid.
-  - If the mower tries to move outside the grid, a descriptive message is shown and the mower keeps its current position.
+  - If the mower tries to move outside the grid, a descriptive message is shown and the mower keeps its current position, awaiting to excecute next instruction if any.
 
 - **Error Handling:**
   - Proper error handling is included for invalid formats, and more (see Error Handling).
