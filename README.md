@@ -43,4 +43,4 @@
 - **Nonexistent File:** Checks for file existence, shows an error if missing, and exits.
 - **Invalid Grid Size Format:** Requires two integers; errors if incorrect, showing expected format and line number.
 - **Incomplete/Invalid Mower Instruction Pairs:** Ensures pairs are complete; errors with line number if not.
-- **Invalid Direction Characters:** Only allows `L`, `R`, `F`; errors on invalid characters with line number.
+- **Invalid Direction Characters:** Only allows `L`, `R`, `F`; or `N, E, W, or S`; show errors on invalid characters with line number.
