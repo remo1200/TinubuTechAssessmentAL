@@ -32,7 +32,7 @@
 
 - **Execution of Instructions:**
   - The program executes the instructions for each mower and moves it within the grid.
-  - If the mower tries to move outside the grid, an exception is thrown with a descriptive message.
+  - If the mower tries to move outside the grid, a descriptive message is shown and the mower keeps its current position.
 
 - **Error Handling:**
   - Proper error handling is included for invalid formats, moving outside the grid, and more (see Error Handling).
@@ -44,4 +44,3 @@
 - **Invalid Grid Size Format:** Requires two integers; errors if incorrect, showing expected format and line number.
 - **Incomplete/Invalid Mower Instruction Pairs:** Ensures pairs are complete; errors with line number if not.
 - **Invalid Direction Characters:** Only allows `L`, `R`, `F`; errors on invalid characters with line number.
-- **Mower Moving Outside Grid:** Throws an error and stops if a mower moves outside the grid, showing initial position.
