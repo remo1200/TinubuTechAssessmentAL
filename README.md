@@ -35,7 +35,7 @@
   - If the mower tries to move outside the grid, a descriptive message is shown and the mower keeps its current position.
 
 - **Error Handling:**
-  - Proper error handling is included for invalid formats, moving outside the grid, and more (see Error Handling).
+  - Proper error handling is included for invalid formats, and more (see Error Handling).
 
 ### **Error Handling**
 
